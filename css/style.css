@@ -46,6 +46,36 @@ body {
     z-index: 1;
 }
 
+.cartel-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: content-box;
+    background-color: #eee;
+    opacity: 0;
+    transition: opacity 1s; 
+}
+
+.cartel-hover:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.cartel-hover-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: content-box;
+    background-color: #eee;
+    opacity: 0;
+    transition: opacity 1s; 
+}
+
+.cartel-hover-2:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
